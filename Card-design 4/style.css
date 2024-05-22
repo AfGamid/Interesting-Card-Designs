@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.imgBox {
+    background-image: url("/img/download.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: spin 4s infinite;
+    box-shadow: cyan 0px 0px 35px,
+        cyan 0px -12px 30px,
+        cyan 0px 4px 6px,
+        cyan 0px 12px 13px,
+        cyan 0px -3px 5px;
+}
+
+@keyframes spin {
+    0% {
+        width: 0px;
+        height: 3px;
+    }
+
+    50% {
+        width: 250px;
+        height: 3px;
+    }
+
+    100% {
+        width: 250px;
+        height: 300px;
+    }
+}

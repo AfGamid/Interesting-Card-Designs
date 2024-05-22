@@ -1,0 +1,43 @@
+@import url("./main.css");
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+
+    .img_div {
+        width: 230px;
+        height: 300px;
+        border: 1px solid green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        // background-color: #5ABED5;
+        background-image: linear-gradient(50deg, #339bdb, #25ad72);
+
+        &:hover {
+            img {
+                transition: all ease 0.5s;
+                transform: translateY(-50px);
+                transform: translate(-20px, -40px) rotate(-15deg) scale(1.4);
+
+            }
+            span{padding-bottom: 20px;
+            }
+        }
+
+        img {
+            width: 200px;
+            height: 120px;
+            transition: all ease 0.5s;
+        }
+
+        span {
+            font-size: 25px;
+            color: white;
+        }
+    }

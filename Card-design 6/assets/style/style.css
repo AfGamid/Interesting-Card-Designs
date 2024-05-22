@@ -1,0 +1,101 @@
+@import url("./main.css");
+.card_parent {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 30%;
+  top: 30%;
+  padding: 50px;
+}
+.card_parent .card1 {
+  width: 250px;
+  height: 250px;
+  flex-wrap: wrap;
+  position: absolute;
+  transform: rotate(-10deg);
+  padding: 10px;
+  background-color: #202022;
+  color: white;
+  border-radius: 10px;
+  transition: all ease 0.4s;
+}
+.card_parent .card1:hover {
+  transform: rotate(0deg);
+  padding: 30px;
+}
+.card_parent .card1 .date {
+  color: rgb(235, 26, 235);
+}
+.card_parent .card1 .description {
+  color: white;
+}
+.card_parent .card2 {
+  width: 250px;
+  height: 250px;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 0px;
+  transform: rotate(-10deg);
+  padding: 10px;
+  background-color: #202022;
+  color: white;
+  border-radius: 10px;
+  transition: all ease 0.4s;
+}
+.card_parent .card2:hover {
+  transform: rotate(0deg);
+  padding: 30px;
+}
+.card_parent .card2 .date {
+  color: rgb(235, 26, 235);
+}
+.card_parent .card2 .description {
+  color: white;
+}
+.card_parent .card3 {
+  width: 250px;
+  height: 250px;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0px;
+  transform: rotate(-10deg);
+  padding: 10px;
+  background-color: #202022;
+  color: white;
+  border-radius: 10px;
+  transition: all ease 0.4s;
+}
+.card_parent .card3:hover {
+  transform: rotate(0deg);
+  padding: 30px;
+}
+.card_parent .card3 .date {
+  color: rgb(235, 26, 235);
+}
+.card_parent .card3 .description {
+  color: white;
+}
+.card_parent .card4 {
+  width: 250px;
+  height: 250px;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  transform: rotate(-10deg);
+  padding: 10px;
+  background-color: #202022;
+  color: white;
+  border-radius: 10px;
+  transition: all ease 0.4s;
+}
+.card_parent .card4:hover {
+  transform: rotate(0deg);
+  padding: 30px;
+}
+.card_parent .card4 .date {
+  color: rgb(235, 26, 235);
+}
+.card_parent .card4 .description {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
